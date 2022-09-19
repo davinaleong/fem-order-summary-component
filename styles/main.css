@@ -218,28 +218,6 @@ a:where(:hover, :focus, :focus-visible) {
   align-items: center;
 }
 
-.card-grid {
-  overflow: hidden;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: repeat(2, max-content);
-}
-
-@media (min-width: 48em) {
-  .card-grid {
-    width: 37.5em;
-    min-height: 28.125em;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-}
-
-.price-flex {
-  display: flex;
-  align-items: center;
-  gap: var(--size-200);
-}
-
 /** Content - End **/
 
 /** Utility **/
