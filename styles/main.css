@@ -21,15 +21,12 @@
 
 /** Root **/
 :root {
-  --clr-primary-100: hsl(0, 0%, 100%);
-  --clr-primary-800: hsl(228, 12%, 48%);
-  --clr-primary-900: hsl(212, 21%, 14%);
+  --clr-primary-100: hsl(225, 100%, 94%);
+  --clr-primary-400: hsl(245, 75%, 52%);
 
-  --clr-secondary-300: hsl(158, 36%, 47%);
-  --clr-secondary-400: hsl(158, 36%, 37%);
-  --clr-secondary-900: hsl(158, 36%, 14%);
-
-  --clr-accent-400: hsl(30, 38%, 92%);
+  --clr-neutral-100: hsl(225, 100%, 98%);
+  --clr-neutral-400: hsl(224, 23%, 55%);
+  --clr-neutral-900: hsl(223, 47%, 23%);
 
   --clr-grey-100: hsl(0, 0%, 100%);
   --clr-grey-200: hsl(0, 0%, 80%);
@@ -42,14 +39,14 @@
   --clr-grey-900: hsl(0, 0%, 10%);
   --clr-grey-1000: hsl(0, 0%, 0%);
 
-  --ff-primary: "Montserrat", Verdana, sans-serif;
-  --ff-secondary: "Fraunces", "Times New Roman", serif;
+  --ff-primary: "Red Hat Display", Verdana, sans-serif;
+  --ff-secondary: "Red Hat Display", "Times New Roman", serif;
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-secondary);
 
-  --fw-light: 500;
   --fw-regular: 500;
   --fw-bold: 700;
+  --fw-black: 900;
 
   --fs-base: 16px;
   --fs-100: 0.6rem;
@@ -241,25 +238,18 @@ a:where(:hover, :focus, :focus-visible) {
 .text-primary-100 {
   color: var(--clr-primary-100);
 }
-.text-primary-800 {
-  color: var(--clr-primary-800);
-}
-.text-primary-900 {
-  color: var(--clr-primary-900);
+.text-primary-400 {
+  color: var(--clr-primary-400);
 }
 
-.text-secondary-300 {
-  color: var(--clr-secondary-300);
+.text-neutral-100 {
+  color: var(--clr-neutral-100);
 }
-.text-secondary-400 {
-  color: var(--clr-secondary-400);
+.text-neutral-400 {
+  color: var(--clr-neutral-400);
 }
-.text-secondary-900 {
-  color: var(--clr-secondary-900);
-}
-
-.text-accent-400 {
-  color: var(--clr-accent-400);
+.text-neutral-900 {
+  color: var(--clr-neutral-900);
 }
 
 .text-grey-100 {
@@ -297,25 +287,18 @@ a:where(:hover, :focus, :focus-visible) {
 .bg-primary-100 {
   background-color: var(--clr-primary-100);
 }
-.bg-primary-800 {
-  background-color: var(--clr-primary-800);
-}
-.bg-primary-900 {
-  background-color: var(--clr-primary-900);
+.bg-primary-400 {
+  background-color: var(--clr-primary-400);
 }
 
-.bg-secondary-300 {
-  background-color: var(--clr-secondary-300);
+.bg-neutral-100 {
+  background-color: var(--clr-neutral-100);
 }
-.bg-secondary-400 {
-  background-color: var(--clr-secondary-400);
+.bg-neutral-400 {
+  background-color: var(--clr-neutral-400);
 }
-.bg-secondary-900 {
-  background-color: var(--clr-secondary-900);
-}
-
-.bg-accent-400 {
-  background-color: var(--clr-accent-400);
+.bg-neutral-900 {
+  background-color: var(--clr-neutral-900);
 }
 
 .bg-grey-100 {
@@ -358,14 +341,14 @@ a:where(:hover, :focus, :focus-visible) {
 }
 
 /** Utility - Font Weights **/
-.fw-light {
-  font-weight: var(--fw-light);
-}
 .fw-regular {
   font-weight: var(--fw-regular);
 }
 .fw-bold {
   font-weight: var(--fw-bold);
+}
+.fw-black {
+  font-weight: var(--fw-black);
 }
 
 /** Utility - Font Sizes **/
