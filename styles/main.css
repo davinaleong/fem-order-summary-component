@@ -92,14 +92,16 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-image: linear-gradient(
-    to bottom,
-    var(--clr-accent-400),
-    var(--clr-primary-400)
-  );
+  background-image: url(./../images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media (min-width: 23em) {
+  body {
+    background-image: url(./../images/pattern-background-desktop.svg)
+  }
 }
 
 /* * {
