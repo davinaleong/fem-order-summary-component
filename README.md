@@ -2,7 +2,7 @@
 
 Another simple challenge from Frontend Mentor.
 
-The challenge can be found [here](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-VLWLZV6yBu).
+The challenge can be found [here](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 Demo page can be found [here](https://davinaleong.github.io/fem-order-summary-component/)!
 
